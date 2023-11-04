@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#container {
+  text-align: center;
+}
+
+#content {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+#timeLabel {
+  font-size: 24px;
+}
+
+#buttons {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 16px;
+  margin: 5px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin-left: -30px;
+}

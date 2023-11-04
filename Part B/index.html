@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+  <div id="container">
+    <div id="content">
+      <label id="timeLabel">00:00:00</label>
+      <br><br>
+      <div class="input-group">
+        <input type="text" id="datePicker" readonly>
+        <i class="icon fas fa-calendar-alt"></i>
+      </div>
+      <div id="buttons">
+        <button id="startButton">Start</button>
+        <button id="stopButton" disabled>Stop</button>
+        <button id="resetButton">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="stopwatch.js"></script>
+</body>
+</html>
